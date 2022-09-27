@@ -1,0 +1,20 @@
+name: "worker"
+area: "spd-local"
+ip: "127.0.0.1"
+port: 8002
+password: "secretWorker"
+
+# debug/test/release
+routerMode: release
+
+# panic/fatal/error/warn/info/debug/trace
+loggerMode: debug
+
+dataDir: "./tmp"
+packageDir: "/Users/wujimaster/tmp/package/worker/"
+
+redis:
+    name: "redis"
+    ip: "localhost"
+    port: 6380
+    password: "123"

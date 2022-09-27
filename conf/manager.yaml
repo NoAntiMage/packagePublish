@@ -1,0 +1,21 @@
+name: "manager"
+area: "spd-manager"
+ip: "127.0.0.1"
+port: 8001
+password: "secretManager"
+
+# debug/test/release
+routerMode: release
+
+# panic/fatal/error/warn/info/debug/trace
+loggerMode: debug
+
+dataDir: "./tmp"
+packageDir: "/Users/wujimaster/tmp/package/manager/"
+
+redis:
+    name: "redis"
+    ip: "localhost"
+    port: 6379
+    password: "123"
+
